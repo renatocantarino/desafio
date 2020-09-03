@@ -22,19 +22,6 @@ O projeto acompanha um script de inicialização do banco de dados junto da past
 
 Existem duas maneiras de se iniciar o projeto:
 
-
-
-  - Configurando banco de dados:
-    - É necessário estar executando uma instância do MySQL(5.6 ou 5.7).
-    - Recomendado utilizar o docker para executar o banco:
-      - `$ docker run -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5.6` 
-    - Depois de executado o banco, utilizar o script da pasta `config` para a criação das tabelas e população dos dados necessários de login.
-  - Iniciando do frontend:
-    - `$ cd frontend`
-    - `$ npm install`
-    - `$ npm start`
-    - É necessário ter o Node.js e NPM instalados.
-
   - Iniciando do backend:
     - Tenha certeza de que você tem um banco de dados MySQL versão 5.6 sendo executada e executou o script da pasta `config`.
     - Tenha certeza de que você possui o `Maven` e o `JDK8` instalados em sua máquina.
