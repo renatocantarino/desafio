@@ -1,24 +1,3 @@
-# Teste surittec.
-
-## Objetivo
-
-O projeto é um crud de cadastro de clientes com os seguintes campos:
-
-- Nome do cliente
-- CPF
-- Endereço:
-   - CEP
-   - Logradouro
-   - Bairro
-   - Cidade 
-   - UF
-   - Complemento(este opcional)
-- Telefone(s):
-  - Tipo do número(comercial, residencial ou celular)
-  - Número de telefone
-- Email(s):
-  - Endereço de email
-
 ## Tecnologias utilizadas
 
 O projeto é composto por dois projetos e suas respectivas tecnologias:
@@ -43,12 +22,7 @@ O projeto acompanha um script de inicialização do banco de dados junto da past
 
 Existem duas maneiras de se iniciar o projeto:
 
-- Docker-Compose
-  - Para executar via docker-compose, basta estar na pasta raíz do projeto e executar: 
-   `` $ docker-compose up ``
-  - Obs: é necessário ter o docker instalado.
-  - O serviço de backend pode demorar a ser executado pois depende do healthcheck do docker-compose no serviço `db`.
-- Instalando as dependências de cada um e iniciando:
+
 
   - Configurando banco de dados:
     - É necessário estar executando uma instância do MySQL(5.6 ou 5.7).
